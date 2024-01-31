@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
@@ -7,9 +8,15 @@ function Navbar() {
             <div className="text-2xl font-bold">Soraka</div>
         </div>
         <div className="flex gap-5 font-semibold">
-            <div>Criar Categoria</div>
-            <div>Editar Categoria</div>
-            <div>Deletar Categoria</div>
+            <Link to='/home' >
+              Home
+            </Link>
+            <Link to='/categorias' >
+              Categorias
+            </Link>
+            <Link to='/cadastroCategoria' >
+              Cadastrar Categorias
+            </Link>
         </div>
     </div>
   )

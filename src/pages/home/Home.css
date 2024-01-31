@@ -1,0 +1,14 @@
+.imagemHome{
+   width: 50%;
+
+}
+.imagemHome img{
+    object-fit: fill;
+    position: absolute;
+    height: 81%;
+    margin-top: 3px;
+}
+
+.conteudoHome{
+    width: 50%;
+}
